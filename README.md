@@ -17,10 +17,13 @@ Among these, Llama-3.3-70b-instruct, Qwen3-1.7b, DeepSeek-v3.2, Kimi-k2-instruct
 
 | Model Name | URL |
 | :--- | :--- |
+| **GPT-5.1** | [https://platform.openai.com/](https://platform.openai.com/) |
+| **Gemini-2.5-Flash-Lite** | [https://aistudio.google.com/](https://aistudio.google.com/) |
+| **Glm-4.7** | [https://open.bigmodel.cn/](https://open.bigmodel.cn/) |
 | **Llama-3.3-70b-instruct** | [https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct](https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct) |
-| **Qwen3-1.7b** | [https://huggingface.co/Qwen]([https://huggingface.co/Qwen](https://huggingface.co/Qwen/Qwen3-1.7B)) |
-| **DeepSeek-v3.2** | [https://github.com/deepseek-ai/DeepSeek-V3]([https://github.com/deepseek-ai/DeepSeek-V3](https://huggingface.co/deepseek-ai/DeepSeek-V3.2)) |
-| **Kimi-k2-instruct-0905** | [https://platform.moonshot.cn/]([https://platform.moonshot.cn/](https://huggingface.co/moonshotai/Kimi-K2-Instruct-0905)) |
-| **Minimax-m2** | [https://huggingface.co/minimax]([https://huggingface.co/minimax](https://huggingface.co/MiniMaxAI/MiniMax-M2)) |
-| **Phi-4-multimodal-instruct** | [https://huggingface.co/microsoft/phi-4]([https://huggingface.co/microsoft/phi-4](https://huggingface.co/microsoft/Phi-4-multimodal-instruct)) |
-| **Gemma-3n-e4b-it** | [https://huggingface.co/google/gemma-3]([https://huggingface.co/google/gemma-3](https://huggingface.co/google/gemma-3n-E4B-it)) |
+| **Qwen3-1.7b** | [https://huggingface.co/Qwen/Qwen3-1.7B](https://huggingface.co/Qwen/Qwen3-1.7B) |
+| **DeepSeek-v3.2** | [https://huggingface.co/deepseek-ai/DeepSeek-V3.2](https://huggingface.co/deepseek-ai/DeepSeek-V3.2) |
+| **Kimi-k2-instruct-0905** | [https://huggingface.co/moonshotai/Kimi-K2-Instruct-0905](https://huggingface.co/moonshotai/Kimi-K2-Instruct-0905) |
+| **Minimax-m2** | [https://huggingface.co/MiniMaxAI/MiniMax-M2](https://huggingface.co/MiniMaxAI/MiniMax-M2) |
+| **Phi-4-multimodal-instruct** | [https://huggingface.co/microsoft/Phi-4-multimodal-instruct](https://huggingface.co/microsoft/Phi-4-multimodal-instruct) |
+| **Gemma-3n-e4b-it** | [https://huggingface.co/google/gemma-3n-E4B-it](https://huggingface.co/google/gemma-3n-E4B-it) |
