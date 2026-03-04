@@ -1,0 +1,23 @@
+"A novice programmer has written a program that contains errors and fails to pass all the test cases for the problem.
+Please identify the potential errors in the program and specify the line numbers where the errors occur.
+Give your answer in English.
+
+You need to complete three steps:
+
+1.Only use retrieved similar code information if they closely align with the observed issue in the given code. Avoid introducing assumptions or irrelevant logic.
+2.Identify ten lines in the program that may contain potential errors.
+3.Rank these line numbers in descending order of the likelihood of the errors occurring.For each line, provide an explanation of why it is suspected to be erroneous, focusing on the issue's potential impact on the program's behavior."
+
+The output should be formatted as a JSON object with the following structure:
+```json
+{
+    "faultyLoc": [
+        {
+            "faultyLine": (indicating the line number of the potentially faulty code),
+            "explanation" (explaining why this line is suspected to be erroneous).
+        },
+        ...
+    ]
+}
+```
+Ensure that the objects in the "faultyLoc" array are sorted in descending order of the likelihood of the errors occurring.You don't need to return the repaired code, just the json result described above.

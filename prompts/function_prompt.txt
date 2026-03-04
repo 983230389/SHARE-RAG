@@ -1,0 +1,13 @@
+"Below is a code snippet containing the error and its associated problem description,please summarize the functional semantics of this code.
+
+You need to complete three steps:
+1.Summarize the primary purpose of this code in one sentence.
+2.Detailed analysis and summary of the key functions of the code snippet, using a numbered format (no limit to the number), without additional explanation."
+
+You should return a JSON result following this JSON template which is parseable by json.loads():
+```json
+{
+    "Primary Purpose": (indicating the function purpose in one sentence),
+    "Detailed functionalities": ("1. Step 1 detailed functionality. 2. Step 2 detailed functionality. 3. Step 3 detailed functionality. ... (Add more steps as needed)")
+}
+```

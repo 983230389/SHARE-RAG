@@ -1,0 +1,3 @@
+class Keys:
+    OPENAI_API_KEY = "",
+    HUGGINGFACEHUB_API_TOKEN = ""

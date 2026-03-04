@@ -1,0 +1,15 @@
+"Below is a code snippet containing the error,the corrected version of the code,and an explanation of the error.
+I want you act as a fault localization expert and analyze these elements.
+
+You need to complete three steps:
+1.Identify the Error: Examine the original code and the corrected version to pinpoint the exact nature of the error.
+2.Understand the Error: Utilize the provided tutorGuidance and solution to comprehend why this error occurred in the context of the given code.
+3.Develop a Solution: Based on your understanding, summarize a specific solution that addresses this error effectively.
+
+You should return a JSON result following this JSON template which is parseable by json.loads():
+```json
+{
+    "Fault Causes": (indicating the cause of the error),
+    "Fix Solution": (Indicating a solution to fix the error)
+}
+```

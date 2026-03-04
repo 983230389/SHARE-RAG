@@ -1,0 +1,22 @@
+"A novice programmer has written a program that contains errors and fails to pass all the test cases for the problem.
+Please identify the potential errors in the program and specify the line numbers where the errors occur.
+Give your answer in English.
+
+You need to complete two steps:
+
+1.Identify ten lines in the program that may contain potential errors.
+2.Rank these line numbers in descending order of the likelihood of the errors occurring."
+
+You should use the retrieved similar code examples to help analyze and determine the potential errors.Please return a JSON result following this JSON template which is parseable by json.loads():
+```json
+{
+    "faultyLoc": [
+        {
+            "faultyLine": (indicating the line number of the potentially faulty code)
+        },
+        ...
+    ]
+}
+```
+Eusure that the objects in the "faultyLoc" array are sorted in descending order of the likelihood of the errors occurring.
+As a result, you only need to return the JSON results in the above format, and you do not need to have redundant information such as a modified code.
