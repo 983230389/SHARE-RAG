@@ -17,9 +17,6 @@ Among these, Llama-3.3-70b-instruct, Qwen3-1.7b, DeepSeek-v3.2, Kimi-k2-instruct
 
 | Model Name | URL |
 | :--- | :--- |
-| **GPT-5.1** | [https://platform.openai.com/](https://platform.openai.com/) |
-| **Gemini-2.5-Flash-Lite** | [https://aistudio.google.com/](https://aistudio.google.com/) |
-| **Glm-4.7** | [https://open.bigmodel.cn/](https://open.bigmodel.cn/) |
 | **Llama-3.3-70b-instruct** | [https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct](https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct) |
 | **Qwen3-1.7b** | [https://huggingface.co/Qwen/Qwen3-1.7B](https://huggingface.co/Qwen/Qwen3-1.7B) |
 | **DeepSeek-v3.2** | [https://huggingface.co/deepseek-ai/DeepSeek-V3.2](https://huggingface.co/deepseek-ai/DeepSeek-V3.2) |
@@ -27,3 +24,13 @@ Among these, Llama-3.3-70b-instruct, Qwen3-1.7b, DeepSeek-v3.2, Kimi-k2-instruct
 | **Minimax-m2** | [https://huggingface.co/MiniMaxAI/MiniMax-M2](https://huggingface.co/MiniMaxAI/MiniMax-M2) |
 | **Phi-4-multimodal-instruct** | [https://huggingface.co/microsoft/Phi-4-multimodal-instruct](https://huggingface.co/microsoft/Phi-4-multimodal-instruct) |
 | **Gemma-3n-e4b-it** | [https://huggingface.co/google/gemma-3n-E4B-it](https://huggingface.co/google/gemma-3n-E4B-it) |
+
+For conducting experiments on commercial LLMs like o1-preview, o3-mini, GPT-4o, GPT-3.5 and Claude3, we utilize the official API interfaces provided.
+
+To standardize our experiments, for all open-source LLMs, we employ the API interfaces in the format of commercial LLMs. Instructions on deploying a commercial LLM form API interface can be found at https://github.com/xusenlinzy/api-for-open-llm.
+
+## 3.Dataset
+We conduct our experiments on the TutorCode dataset. For detailed information and access, please refer to: https://github.com/buaabarty/CREF.
+
+## 4.Run
+
