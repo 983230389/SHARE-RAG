@@ -53,9 +53,9 @@ utils1 is employed to implement the retrieval component of RAG.
 
 ------
 
-Gpt4o-send, Gpt3.5-send, GLM3-send, LLama3-send are employed to dispatch requests for novice program fault localization in bulk to various LLMs, subsequently storing the resulting data in the 'data' repository. To switch models, simply modify the value of `experiment_model`.
+TutorCode-send-gemini, TutorCode-send-glm, etc. are employed to dispatch requests for novice program fault localization in bulk to various LLMs, subsequently storing the resulting data in the 'data' repository. To switch models, simply modify the value of `experiment_model`.
 
-Before execution, certain configurations pertaining to your setup necessitate adjustments. For illustrative purposes, let us consider the instance of *Gpt4o-send*:
+Before execution, certain configurations pertaining to your setup necessitate adjustments. For illustrative purposes, let us consider the instance of *TutorCode-send-glm*:
 
 - The *'prompt_location'* parameter serves to acquire prompts and can be altered to accommodate a custom prompt of your choice.
 - The *'run_TutorCode'* function involves traversing the respective datasets once for data retrieval, with the *<u>'root_path'</u>* requiring adjustment to reflect the location where the dataset is stored.
