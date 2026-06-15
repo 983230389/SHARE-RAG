@@ -55,7 +55,7 @@ utils1 is employed to implement the retrieval component of RAG.
 
 To successfully reproduce the experiments, you must strictly follow the sequential execution pipeline. Please ensure your environment is set up and dependencies are installed before proceeding.
 
-### Step 1: Data Preprocessing
+#### Step 1: Data Preprocessing
 Before querying the LLMs, the dataset must be properly formatted, annotated, and prepared. Execute the following scripts in order:
 
 ```bash
@@ -67,8 +67,9 @@ python addlinenumber.py
 
 # 3. Extract and parse the ground truth fault lines
 python getfaultline.py
+```
 
-### Step 2: Run LLM Inference for Fault Localization
+#### Step 2: Run LLM Inference for Fault Localization
 Once the data is preprocessed, you can dispatch the requests to the respective Large Language Models.
 
 Important: Before running this step, ensure you have configured your API keys (e.g., in SendPrompt.py) and updated the dataset paths within the execution script.
