@@ -60,13 +60,13 @@ Before querying the LLMs, the dataset must be properly formatted, annotated, and
 
 ```bash
 # 1. Split and process the TutorCode dataset
-python tutorsplit.py
+python TutorCode_split.py
 
 # 2. Add line numbers to the source code (essential for precise fault localization)
-python addlinenumber.py
+python AddAineNumber.py
 
 # 3. Extract and parse the ground truth fault lines
-python getfaultline.py
+python getFaultLine.py
 ```
 
 #### Step 2: Run LLM Inference for Fault Localization
@@ -84,6 +84,22 @@ Before execution, certain configurations pertaining to your setup necessitate ad
 ## 5. Evaluate
 
 Navigate to the *"Evaluate"* directory for the code responsible for evaluating the results of the data.
+```bash
+# Navigate to the evaluation directory
+cd evaluate
+
+# 1. Calculate BLEURT Score (Evaluates the quality of the generated explanations)
+python calbleurt.py
+
+# 2. Calculate Localization Rate (Evaluates the accuracy of the fault localization)
+python calrate.py
+
+# 3. Calculate Additional Metrics (Evaluates recall and other retrieval-related metrics)
+python calremetrics.py
+
+# 4. Calculate Standard Deviation & Final Stats (Finalizes the statistical analysis)
+python calstd.py
+```
 
 ### Accuracy Count
 
