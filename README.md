@@ -89,16 +89,16 @@ Navigate to the *"Evaluate"* directory for the code responsible for evaluating t
 cd evaluate
 
 # 1. Calculate BLEURT Score (Evaluates the quality of the generated explanations)
-python calbleurt.py
+python cal_bleurt.py
 
 # 2. Calculate Localization Rate (Evaluates the accuracy of the fault localization)
-python calrate.py
+python cal_rate.py
 
 # 3. Calculate Additional Metrics (Evaluates recall and other retrieval-related metrics)
-python calremetrics.py
+python cal_re_metrics.py
 
 # 4. Calculate Standard Deviation & Final Stats (Finalizes the statistical analysis)
-python calstd.py
+python cal_std.py
 ```
 
 ### Accuracy Count
