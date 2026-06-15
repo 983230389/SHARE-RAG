@@ -53,6 +53,26 @@ utils1 is employed to implement the retrieval component of RAG.
 
 ------
 
+To successfully reproduce the experiments, you must strictly follow the sequential execution pipeline. Please ensure your environment is set up and dependencies are installed before proceeding.
+
+### Step 1: Data Preprocessing
+Before querying the LLMs, the dataset must be properly formatted, annotated, and prepared. Execute the following scripts in order:
+
+```bash
+# 1. Split and process the TutorCode dataset
+python tutorsplit.py
+
+# 2. Add line numbers to the source code (essential for precise fault localization)
+python addlinenumber.py
+
+# 3. Extract and parse the ground truth fault lines
+python getfaultline.py
+
+### Step 2: Run LLM Inference for Fault Localization
+Once the data is preprocessed, you can dispatch the requests to the respective Large Language Models.
+
+Important: Before running this step, ensure you have configured your API keys (e.g., in SendPrompt.py) and updated the dataset paths within the execution script.
+
 TutorCode-send-gemini, TutorCode-send-glm, etc. are employed to dispatch requests for novice program fault localization in bulk to various LLMs, subsequently storing the resulting data in the 'data' repository. To switch models, simply modify the value of `experiment_model`.
 
 Before execution, certain configurations pertaining to your setup necessitate adjustments. For illustrative purposes, let us consider the instance of *TutorCode-send-glm*:
